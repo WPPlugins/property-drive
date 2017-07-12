@@ -1,0 +1,132 @@
+// Property Box Style 1
+
+.jtg-box a {
+    text-decoration: none!important;
+    color: #666!important;
+}
+
+.jtg-box {
+    display: inline-block;
+    padding: 10px 20px;
+}
+.jtg-box-image {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 175px;
+    margin-bottom: -20px;
+}
+.jtg-box-image img {
+    height: 175px!important;
+}
+
+.jtg-box-image span {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 2.5px 5px;
+    color: #fff;
+}
+
+.jtg-box-excerpt {
+    float: left;
+    width: 100%;
+    padding: 5px 0px;
+    margin-bottom: -20px;
+
+
+}
+
+.jtg-box-excerpt p {
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+.jtg-box-status-type {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.jtg-box-status-type span {
+    padding: 10px;
+}
+
+.jtg-box-title {
+    width: 100%!important;
+    display: block;
+	text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.jtg-box-title span {
+	display: block;
+}
+.jtg-box-details {
+    display: inline-block;
+    font-weight: normal;
+    width: 100%;
+    text-align: right;
+    font-size: 16px;
+}
+.jtg-box-details span {
+    margin-right: 10px;
+}
+
+.jtg-box-detail-item img {
+    position: relative;
+    bottom: -6px;
+}
+/* Tablet Sizing */
+
+@media (min-width: 30em) {
+    .jtg-box-image {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 175px;
+    }
+    .jtg-box-excerpt {
+        float: left;
+        width: 100%;
+        padding: 5px 0px;
+        margin-bottom: -30px;
+        padding-bottom: -10px;
+
+    }
+    .jtg-box-status-type {
+        float: left;
+        width: 100%;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px 0px;
+    }
+}
+/*Desktop Sizing*/
+@media (min-width: 48em) {
+
+    .jtg-box-image {
+        position: relative;
+        float: left;
+        width: 50%;
+        height: 175px;
+    }
+    .jtg-box-excerpt {
+        float: right;
+        width: 50%;
+        padding: 5px 0px;
+        margin-bottom: -30px;
+        padding-bottom: -10px;
+
+    }
+    .jtg-box-status-type {
+        float: right;
+        width: 50%;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px 0px;
+    }
+}

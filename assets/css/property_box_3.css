@@ -1,0 +1,145 @@
+// Property Box Style 1
+
+.jtg-box a {
+    text-decoration: none!important;
+    color: #666!important;
+}
+
+.jtg-box {
+    display: inline-block;
+    border: 1px solid #f3f3f3;
+    box-shadow: 0px 2px 0 0 #f3f3f3;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+}
+.jtg-box-image {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+.jtg-box-image img {
+    height: 150px!important;
+}
+
+.jtg-box-image span {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: red;
+    padding: 2.5px 5px;
+    color: #fff;
+}
+
+.jtg-box-excerpt {
+    float: left;
+    width: 100%;
+    padding: 5px 0px;
+    margin-bottom: -20px;
+
+    
+}
+
+.jtg-box-excerpt p {
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+.jtg-box-status-type {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.jtg-box-status-type span {
+    padding: 10px;
+}
+
+.jtg-box-title {
+    text-align: left;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.jtg-box-details {
+    background-color: #e1e1e1;
+
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    padding-top: 10px;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.jtg-box-details span {
+    margin-left:25px;
+    padding-right: 25px;
+    border-right: 1px solid #777777;
+
+}
+
+.jtg-box-details span:last-child {
+    border-right: 0px;
+}
+
+.jtg-box-detail-item img {
+    position: relative;
+    bottom: -3px;
+    width: 55px;
+    margin-right: 15px;
+}
+/* Tablet Sizing */
+
+@media (min-width: 30em) {
+        .jtg-box-image {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+.jtg-box-excerpt {
+    float: left;
+    width: 100%;
+    padding: 5px 0px;
+    margin-bottom: -30px;
+    padding-bottom: -10px;
+    
+}
+.jtg-box-status-type {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+}
+/*Desktop Sizing*/
+@media (min-width: 48em) {
+
+    .jtg-box-image {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 150px;
+}
+.jtg-box-excerpt {
+    float: right;
+    width: 50%;
+    padding: 5px 0px;
+    margin-bottom: -30px;
+    padding-bottom: -10px;
+    
+}
+.jtg-box-status-type {
+    float: right;
+    width: 50%;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+}

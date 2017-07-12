@@ -1,0 +1,98 @@
+
+
+.property-status {
+	display: inline-block;
+	position: absolute;
+	background-color: #333;
+	color: #fff;
+	padding: 2.5px 7.5px;
+	top: 6px;
+	right: 21px;
+}
+
+
+.property-box-price {
+	display: inline-block;
+	position: absolute;
+	background-color: #333;
+	color: #fff;
+	padding: 2.5px 7.5px;
+	top: 6px;
+	left: 21px;
+}
+
+.listing-image img {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	
+}
+.contact-info-box {
+	text-align: center;
+}
+
+.listing-header {
+
+	border: 1px #ccc solid;
+	
+}
+
+.listing-header-box {
+	text-align: center;
+}
+
+
+.listing-header-item {
+	display: inline-block;
+}
+
+.listing-spacer {
+	margin: 50px 0px;
+}
+
+.listing-header-item {
+	padding: 10px;
+	text-align: center;	
+}
+
+
+.listing-header-item i {
+	font-size: 38px;
+}
+
+
+.listing-description {
+	padding: 20px 15px;
+	margin 15px 0px;
+	
+}
+
+
+.jtg-single-property-title {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px 25px;
+	margin-bottom: 35px;
+}
+
+.jtg-single-property-title h1 {
+	font-size: 22px!important;
+	margin-bottom: -20px;
+	margin-top: 5px;
+	color: #fff;
+}
+
+.jtg-single-property-title span {
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.jtg-price-term {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}

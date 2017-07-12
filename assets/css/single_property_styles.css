@@ -1,0 +1,40 @@
+	.jtg-btn-1-contact {
+		display: block;
+		margin: 15px 0;
+		color: #fff;
+		padding: 5px 25px;
+		border-radius: none;
+		font-weight: bold;
+	}
+	.jtg-btn-2-contact {
+		display: block;
+		color: #fff;
+		padding: 5px 25px;
+		border-radius: none;
+		font-weight: bold;
+	}
+
+	.cS-hidden {
+    height: 1px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    overflow: hidden;
+}
+.jtg-container {
+		padding: 0px <?php 
+			if ($single_page_options['single_container_padding']) {
+				$responsive_container_padding = ($single_page_options['single_container_padding'] / 100) * 10;
+				echo $responsive_container_padding;
+			} elseif (!$single_page_options['single_container_padding']) {
+				$responsive_container_padding = (100 / 100) * 10;
+				echo $responsive_container_padding;
+			} ?>px;
+	}
+	
+@media (min-width: 48em) {
+	.jtg-container {
+		padding: 0px <?php echo $single_page_options['single_container_padding'] ? $single_page_options['single_container_padding'] : '100'; ?>px;
+	}
+}
+
+

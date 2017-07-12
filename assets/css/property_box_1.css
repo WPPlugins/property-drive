@@ -1,0 +1,54 @@
+// Property Box Style 1
+
+.jtg-box a {
+    text-decoration: none!important;
+    color: #666!important;
+}
+
+.jtg-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.jtg-box-image img {
+    height: 160px!important;
+}
+
+.jtg-box-excerpt {
+    border-top: 1px solid #ccc;
+    padding: 5px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.jtg-box-status-type {
+    padding: 5px 0px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.jtg-box-title {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+.jtg-box-details {
+    display: flex;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.jtg-box-details-left {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.jtg-box-details-right {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.jtg-box-detail-item img {
+    position: relative;
+    bottom: -3px;
+}

@@ -1,0 +1,90 @@
+.jtg_search_type_4 {
+position: relative;
+display: block;
+}
+
+.search_type_4_inner {
+
+
+}
+
+.activeStatus {
+	background-color: red;
+}
+
+.property-tabs-wrapper {
+	display: flex;
+    justify-content: center;
+	font-size: 16px;
+}
+
+.property-type-tab {
+
+}
+
+.property-tabs-wrapper button {
+	padding: 5px 15px;
+	background-color: #004b85;
+	color: #fff200;
+	border: 0px;
+
+}
+.property-tabs-wrapper button:focus {
+	outline: none!important;
+}
+
+.property-tabs-wrapper button:hover, .property-tabs-wrapper .active {
+	background-color: #fff200;
+	color: #004b85;
+}
+
+
+
+
+.jtg-select-wrap {
+	display: flex;
+    justify-content: center;
+}
+
+.jtg-select-wrap select {
+    	width: 80%!important;
+    }
+
+.jtg-select-wrap input[type=text] {
+	height: 35px;
+	width: 80%;
+	color: #777;
+}
+
+.jtg-search-sc-btn {
+	width: 80%!important;
+	right: 0px!important;
+}
+
+div#price-range {
+    position: relative;
+    bottom: -3px;
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+
+    .property-tabs-wrapper {
+    	margin-bottom: 15px;
+    }
+
+    .jtg-select-wrap {
+    	margin-bottom: 10px;
+    }
+
+ div#price-range {
+    	width: 100%!important;
+    }
+
+    div#price-range {
+    	margin-bottom: 55px;
+
+    }
+}

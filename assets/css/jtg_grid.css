@@ -1,0 +1,156 @@
+                /* resets */
+.jtg-container .jtg-row *,
+.jtg-container .jtg-row *:before,
+.jtg-container .jtg-row *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+.jtg-container {
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+.jtg-clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* grid */
+.jtg-row {
+  margin: 0 5px;
+  margin-bottom: 20px;
+}
+.jtg-row:last-child {
+  margin-bottom: 0;
+}
+[class*="jtg-col-"] {
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.jtg-admin-col-left {
+  float: left;
+  width: 20%;
+}
+
+.jtg-admin-col-right {
+  float: left;
+  width: 80%;
+}
+
+@media only screen and (max-width: 500px) {
+
+.search-box-shortcode {
+        padding-bottom: 60px;
+    }
+
+    .jtg-admin-col-left {
+      width: 100%;
+    }
+
+    .jtg-admin-col-right {
+      float: left;
+      width: 100%;
+    }
+
+
+}
+@media all and ( max-width: 480px ) {
+    
+  .jtg-container {
+    margin: 0 0px;
+    margin-bottom: 20px;
+}  
+
+  .jtg-col-1-1 {
+
+    width: 100%;
+  }
+
+  .jtg-col-2-3 {
+    float: left;
+    width: 66.66%;
+  }
+  .jtg-col-1-2 {
+    float: left;
+    width: 100%;
+  }
+  .jtg-col-1-3 {
+    float: left;
+    width: 100%;
+  }
+  .jtg-col-1-4 {
+    float: left;
+    width: 100%;
+  }
+  .jtg-side-1-4 {
+    float: left;
+    width: 100%;
+
+  }
+  .jtg-col-1-5 {
+    float: left;
+    width: 20%;
+  }
+  .jtg-col-1-6 {
+    float: left;
+    width: 50%;
+  }
+  .jtg-col-1-8 {
+    float: left;
+    width: 12.5%;
+  }
+  .jtg-col-3-4 {
+    float: left;
+    width: 100%;
+  }
+
+}
+
+@media all and ( min-width: 720px ) {
+
+  .jtg-col-1-1 {
+
+    width: 100%%;
+  }
+
+  .jtg-col-2-3 {
+    float: left;
+    width: 66.66%;
+  }
+  .jtg-col-1-2 {
+    float: left;
+    width: 50%;
+  }
+  .jtg-col-1-3 {
+    float: left;
+    width: 33.33%;
+  }
+  .jtg-col-1-4 {
+    float: left;
+    width: 25%;
+  }
+  .jtg-side-1-4 {
+    float: left;
+    width: 25%;
+  }
+  .jtg-col-1-5 {
+    float: left;
+    width: 20%;
+  }
+  .jtg-col-1-6 {
+    float: left;
+    width: 16.66%;
+  }
+  .jtg-col-1-8 {
+    float: left;
+    width: 12.5%;
+  }
+  .jtg-col-3-4 {
+    float: left;
+    width: 75%;
+  }
+
+}

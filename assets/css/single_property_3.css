@@ -1,0 +1,86 @@
+#jtg-property-title {
+	margin-bottom: 25px;
+	background-color: #fff;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	padding-top: 15px;
+	margin-top: 0px;
+}
+.contact-info-box {
+	text-align: center;
+}
+
+.listing-energy img {
+	position: relative;
+	bottom: -4px;
+}
+
+.listing-header-box {
+	text-align: left;
+}
+
+.mk-post-nav {
+	display: none!important;
+}
+
+.single-container-2 {
+	padding: 0px 10%;
+}
+
+.listing-description p{
+	padding: 0px 15px;
+}
+
+.listing-header-box {
+	margin-top: -25px;
+}
+
+.listing-header-box i {
+	margin-right:5px;
+	font-weight: bold;
+}
+
+.listing-header-box img {
+	position: relative;
+	bottom: -4px;
+}
+
+.jtg-image-slider-wrapper ul li {
+	margin-left: 0px!important;
+}
+
+.lSSlideOuter .lSPager.lSGallery img {
+	height: 70px!important;
+}
+
+#lightSlider {
+	max-height: 600px;
+}
+
+.listing-header-item {
+
+	font-size: 20px;
+}
+
+.jtg-price-term {
+	font-weight: bold;
+	margin-left: 5px; 
+}
+
+
+.top-box-padding {
+	padding-top: 200px;
+}
+@media only screen and (max-width: 500px) {
+
+	.single-container-2 {
+	padding: 0px 5%!important;
+}
+
+	.top-box-padding {
+	padding-top: 0px!important;
+	}
+
+	
+}

@@ -1,0 +1,92 @@
+// Working perfetly!!
+.jtg-property-box {
+    display: block;
+    border: 1px solid #f3f3f3;
+    box-shadow: 0px 2px 0 0 #f3f3f3;
+    text-decoration: none!important;
+    color: #333!important;
+
+}
+
+a.jtg-property-box {
+    text-decoration: none!important;
+    color: #333!important;
+}
+
+.jtg-pb-top {
+    position:relative;
+    display: inline-block;
+    top: 205px;
+    padding-left: 15px;
+}
+
+.pm-property-status {
+// inline
+}
+
+.pm-property-box-price {
+// inline
+}
+
+.pm-property-box-image {
+// inline
+}
+
+@media all and ( max-width: 540px ) {
+    
+    .jtg-pb-details-box {
+        margin-top: 25px;
+    } 
+
+}
+
+.jtg-pb-title {
+    position: relative;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.jtg-pb-details-box {
+    position: relative;
+    text-align: right;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    line-height: 22px;
+    
+}
+
+.jtg-pb-details {
+    display: inline;
+    margin-right: 10px;
+}
+
+.jtg-pb-details img {
+    position: relative;
+    width: 48px;
+    bottom: 0px;
+}
+
+.jtg-pb-top-type {
+    float: left;
+    color: #333;
+    font-weight: bold;
+    margin-right:5px;
+}
+.jtg-pb-top-status {
+    float: right;
+    color: #333;
+    font-weight: bold;
+}
+.jtg-pb-image {
+    width: 100%;
+    margin-top: -30px;
+}
+.jtg-pb-image img {
+    height: 200px;
+}

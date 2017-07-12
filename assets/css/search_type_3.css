@@ -1,0 +1,90 @@
+.search_type_3 {
+position: relative;
+display: block;
+}
+
+
+
+.activeStatus {
+	background-color: red;
+}
+
+.property-tabs-wrapper {
+	position: absolute;
+	top: -42px;
+	left: 0;
+	font-size: 16px;
+}
+
+.property-type-tab {
+	float: left;
+}
+
+.property-tabs-wrapper button {
+	padding: 10px 15px;
+	background-color: #ccc;
+	color: #c0392b;
+	border: 0px;
+
+}
+.property-tabs-wrapper button:focus {
+	outline: none!important;
+}
+
+.property-tabs-wrapper button:hover, .property-tabs-wrapper .active {
+	background-color: #c0392b;
+	color: #ccc;
+}
+
+
+
+
+.jtg-select-wrap {
+	display: flex;
+    justify-content: center;
+}
+
+.jtg-select-wrap select {
+    	width: 80%!important;
+    }
+
+.jtg-select-wrap input[type=text] {
+	height: 35px;
+	width: 80%;
+	color: #777;
+}
+
+.jtg-search-sc-btn {
+	width: 80%!important;
+	right: 0px!important;
+}
+
+div#price-range {
+    position: relative;
+    bottom: -3px;
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+
+    .search_type_3_inner {
+		margin-top: 65px;
+		position: relative;
+		margin-bottom: -250px;
+    }
+
+    .jtg-select-wrap {
+    	margin-bottom: 10px;
+    }
+
+ div#price-range {
+    	width: 100%!important;
+    }
+
+    div#price-range {
+    	margin-bottom: 55px;
+
+    }
+}

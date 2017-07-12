@@ -1,0 +1,509 @@
+/*
+* Remove WP Admin Notices
+*/
+.notice {
+	display: none;
+}
+
+.jtg-container {
+	background-color: #1b1b1b;
+	color: #fff;
+}
+.jtg-container a {
+	text-decoration: none;
+}
+.jtg-admin-header {
+	display: block;
+	width: 100%;
+	float: left;
+	padding: 10px;
+
+}
+
+.jtg-admin-sidebar {
+	display: block;
+	width: 100%;
+	float: left;
+	padding: 10px;
+	padding-top: 0px;
+	color: #fff;
+	background-color: #1b1b1b;
+	min-height: 450px;
+}
+
+.jtg-admin-main-content {
+	position: relative;
+	display: block;
+	min-height: 600px;
+	margin-right: 20px;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 50px;
+	background-color: #fff;
+	color: #666;
+}
+
+.jtg-header-logo {
+	display: block;
+	width:20%;
+	float: left;
+}
+.jtg-header-logo img {
+	width: 150px;
+    position: relative;
+    left: 0px;
+    top: 5px;
+}
+
+.jtg-header-version {
+	display: block;
+	width: 80%;
+	float: left;
+	text-align: right;
+}
+
+.jtg-admin-nav {
+	padding-left: 20px;
+}
+
+.jtg-admin-menu-item-active {
+	border: solid 1px #fff!important;
+	border-radius: 7.5px!important;
+	font-weight: bold!important;
+}
+
+.jtg-admin-nav-item {
+	margin: 5px 0px;
+
+}
+
+.jtg-admin-nav-item:first-child {
+	margin-top: 10px;
+}
+
+.jtg-admin-nav-item a {
+	display: inline-block;
+	padding: 7.5px 10px;
+	color: #fff;
+	border: solid 1px transparent;
+	cursor: pointer;
+
+}
+
+.jtg-admin-nav-item a:hover {
+	border: solid 1px #fff;
+	border-radius: 7.5px;
+	font-weight: bold;
+}
+
+.jtg-update-settings-btn {
+	background-color: #33c75b;
+	padding: 10px;
+	border-radius: 5px;
+	border: solid 0px #33c75b;
+	cursor: pointer;
+	color: #fff;
+	font-weight: normal;
+}
+
+.jtg-update-settings-btn:hover {
+	background-color: #96e196;
+}
+
+.jtg-admin-section-header {
+	display: block;
+	widows: 100%;
+	border-bottom: dotted 5px #1b1b1b;
+	padding-left: 5px;
+	margin-bottom: 25px;
+}
+
+
+.jtg-admin-footer {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 50px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.jtg-admin-footer span {
+	display: inline-block;
+	padding-top: 30px;
+}
+
+.jtg-admin-footer a {
+	color: #fff;
+}
+
+
+.jtg-ajax-response {
+	display: none;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+   	transform: translate(-50%, -50%);
+   	position:absolute;
+	text-align:center;
+	padding: 20px;
+	background-color: rgba(150, 225, 196, 0.7);
+	border: solid 1px #1b1b1b;
+	border-radius: 5px;
+	color: #1b1b1b;
+	font-size: 18px;
+	z-index: 99999;
+}
+
+
+.jtg-manual-import-btn {
+	background-color: #368cfc;
+	padding: 10px;
+	border-radius: 5px;
+	border: solid 1px #368cfc;
+	cursor: pointer;
+	color: #fff;
+	font-weight: normal;
+}
+
+.jtg-manual-import-btn:hover {
+	background-color: #b86cff;
+}
+
+
+#jtg-manual-import-spinner {
+	display: none;
+	position: relative;
+	bottom: -12px;
+	padding-left: 15px;
+}
+
+
+.jtg-admin-logo input {
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+
+.jtg-admin-logo img {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	margin-top: 15px;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+
+.jtg-container label {
+	display: inline-block;
+	width: 100%;
+	padding: 5px 0px;
+	font-weight: bold;
+}
+
+.jtg-container input[type="text"] {
+	display: inline-block;
+	width: 75%;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+.jtg-logo-upload-btn {
+	background-color: #368cfc;
+	padding: 10px;
+	border-radius: 5px;
+	border: solid 1px #368cfc;
+	cursor: pointer;
+	color: #fff;
+	font-weight: normal;
+}
+
+.jtg-logo-upload-btn:hover {
+	background-color: #1563c9;
+}
+
+
+/* The switch - the box around the slider */
+.jtg-admin-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px!important;
+  height: 34px!important;
+}
+
+/* Hide default HTML checkbox */
+.jtg-admin-switch input {display:none;}
+
+/* The slider */
+.jtg-admin-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.jtg-admin-slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .jtg-admin-slider {
+  background-color: #2196F3;
+}
+
+input:focus + .jtg-admin-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .jtg-admin-slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.jtg-admin-slider.jtg-admin-round {
+  border-radius: 34px;
+}
+
+.jtg-admin-slider.jtg-admin-round:before {
+  border-radius: 50%;
+}
+
+
+
+.jtg-container table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 0px solid #ddd;
+}
+
+.jtg-container th, td {
+    border: none;
+    text-align: center;
+    padding: 8px;
+}
+
+
+
+.jtg-admin-hr {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 25px;
+	margin-bottom: 35px;
+	border-bottom: dotted 2px #1b1b1b;
+}
+
+.jtg-delete-all-btn {
+	background-color: #f22c15;
+	padding: 10px;
+	border-radius: 5px;
+	border: solid 1px #f22c15;
+	cursor: pointer;
+	color: #fff;
+	font-weight: normal;
+}
+
+.jtg-delete-all-btn:hover {
+	background-color: #c8210e;
+}
+
+.jtg-admin-notice-light {
+	margin: 25px 0px;
+	background-color: #1b1b1b;
+	padding: 5px 10px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.jtg-admin-notice-light a {
+	color: #368cfc;
+}
+
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #f1f1f1;
+
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 0px 0px 5px 5px;
+    border-top: none;
+    margin-bottom: 25px;
+}
+
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+/*Desktop Sizing*/
+@media (min-width: 48em) {
+    .jtg-admin-grid-item {
+        flex-basis: 24%;
+    }
+
+     /* grid fix page specific*/
+    .jtg-grid-container {
+        margin: 0 100px;
+        margin-bottom: 20px;
+    }
+}
+
+.jtg-grid-wrap {
+    display: flex; 
+    padding: 0px 0px;
+    flex-flow: row wrap;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    list-style: none; 
+    box-sizing: border-box;
+
+}
+
+
+.jtg-admin-grid-item {
+    flex-basis: 24%;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    padding: 10px;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    margin: 0.5%; 
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+
+/* MAKE THE FEATURED IMAGES BEHAVE PROPERLY ACROSS ALL DEVICES */
+
+.jtg-admin-grid-item img {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.jtg-pro-success-msg {
+	padding: 15px;
+	background-color: #15751a;
+	color: #fff;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.jtg-pro-error-msg {
+	padding: 15px;
+	background-color: #c50000;
+	color: #fff;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+
+.jtg-pointer-btn-wrap {
+	text-align: right;
+}
+
+
+.jtg-pointer-btn-wrap a {
+	margin-right: 15px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
